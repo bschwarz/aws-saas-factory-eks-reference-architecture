@@ -36,6 +36,9 @@ Note that the instructions below are intended to give you step-by-step, how-to i
     chmod +x setup.sh
     ./setup.sh
    ```
+   
+    > [!NOTE]  
+    > If you are using a Mac, then use the ```setup_macos.sh```
 
    This [script](./setup.sh) sets up all Kubernetes tools, updates the AWS CLI and installs other dependencies that we'll use later. Take note of the final output of this script. If everything worked correctly, you should see the message that the you're good to continue creating the EKS cluster. If you do not see this message, please do not continue. Ensure that the Administrator EC2 role was created and successfully attached to the EC2 instance that's running your Cloud9 IDE. Also ensure you turned off `AWS Managed Credentials` inside your Cloud9 IDE (refer to step 3).
 
